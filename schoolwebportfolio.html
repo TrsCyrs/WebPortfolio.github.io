@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WebPortfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+ <style>
+	 .simple-text{
+		 text-align:center;
+		 font-family:Arial, Helvetica, sans-serif;
+		 font-size:20px;
+
+	 }
+     .button{
+
+animation-name:example; animation-duration: 4s;  animation-iteration-count: infinite;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+}
+     .button:hover {
+animation-name:example; animation-duration: 4s;  animation-iteration-count: infinite;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+           box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+     .image{
+         width: 200px;
+         height: 220px;
+     }
+div.polaroid {
+width: 400px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+     
+.rainbow {
+   /* Font options */
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 4px #000000;
+  font-size:null;
+  
+  /* Standar Syntax */
+  animation: rainbow 4s infinite; 
+}
+.rainbow2{
+	animation: rainbow 3.5s infinite; 
+}
+.rainbow3{
+	animation: rainbow 3s infinite; 
+}
+.rainbow4{
+	animation: rainbow 2.5s infinite; 
+}
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: hotpink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+@keyframes example {
+  0%   {background-color:hotpink; }
+  25%  {background-color:yellow; }
+  50%  {background-color:Dodgerblue; }
+  75%  {background-color:green; }
+  100% {background-color:hotpink; }
+}
+     @keyframes rborder {
+  0%   {border:3px dashed hotpink; }
+  25%  {border:3px solid yellow; }
+  50%  {border:3px dashed Dodgerblue; }
+  75%  {border:3px solid yellow; }
+  100% {border:3px dashed hotpink; }
+}
+     .rborder{
+       animation-name:rborder;animation-duration: 4s;  animation-iteration-count: infinite;  
+         padding:10px;
+     }
+#hover-blue{
+color: #1834e8;
+}
+#hover-blue:hover{
+color:  #34cddb;
+}
+
+#Hover-Rainbow:hover{
+animation-name:rainbow;animation-duration: 4s;  animation-iteration-count: infinite;
+}
+
+
+
+div a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {animation-name:example;animation-duration: 4s;  animation-iteration-count: infinite;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #e8304c; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background-color:#ff44b1;}
+#HTML{
+    background:#00c64c no-repeat fixed center;
+padding-top:10px;
+padding-bottom:30px;
+padding-left:30px;
+padding-right:30px;
+}
+#whitebox{
+
+padding-top:30px;
+padding-bottom:30px;
+padding-left:30px;
+padding-right:30px;
+}
+#VEX{
+
+padding-top:30px;
+padding-bottom:30px;
+padding-left:30px;
+padding-right:30px;
+}
+#Dprint{
+ background:#00c64c no-repeat fixed center;
+padding-top:30px;
+padding-bottom:30px;
+padding-left:30px;
+padding-right:30px;
+}
+     body{
+         background:lightblue url("https://static.thenounproject.com/png/721880-200.png") no-repeat fixed center;
+     }
+ </style>
+  </head>
+  <body id="OHNODUDE">
+
+<div style="text-align:center;align-content:center;" >
+<table style="text-align:center;align-content:center;">
+  <tr>
+    <th><div>
+  <ul>
+    <li>
+      <a href="#">Personal:</a>
+      <ul>
+        <li><a href="https://repl.it/@CodEwme" target="_blank">Repl.it Profile</a></li>
+        <li><a href="https://StarCalculatorNeuralNetwork-sci-fair-2019.codewme.repl.run" target="_blank">Science Fair Project</a></li>
+        <li><a href="homepage.html" target="_blank">Personal Page</a></li>
+        <li><a href="https://www.engtechclass.com" target="_blank"> More Project Info</a></li>
+				<li><a><button class="button" onclick="REMOVE()">Deleteus the fetus</button></a></li>
+				<li><a href="https://www.instagram.com/superrc_/?hl=en" target="_blank">Instagram Profile</a></li>
+      </ul>
+    </li>
+  </ul>
+</div></th>
+<th>		
+	<button onclick="displayResult()"><h1  id="Hover-Rainbow" style="font-size:30px;text-align:center;">Welcome!</h1></button><p id="END"></p>
+
+</th>
+    <th><div>
+  <ul>
+    <li>
+      <a href="#">Projects:</a>
+      <ul>
+        <li><a href="#whitebox">Prosthetics Simulations</a></li>
+        <li><a href="#Dprint">3D printing</a></li>
+        <li><a href="#VEX">VEX Robotics</a></li>
+				<li><a href="#HTML">HTML/CSS/JS</a></li>
+      </ul>
+    </li>
+  </ul>
+</div></th>
+  </tr>
+</table>
+</div>
+
+<h2 >Here is a simple portfolio describing the wonderful projects and activities we worked on over the year.</h2>
+
+<!--   ADD STUFF  -->
+
+      
+      
+      
+<div id="whitebox">
+    <a href="https://www.whiteboxlearning.com/" target="_blank"> <h2 class="rborder" style="text-decoration: underline">Whitebox Learning / Prosthetics Engineering</h2></a><img  style="width:50px;height:50px;" src="https://pbs.twimg.com/profile_images/633647122001227776/NYpZzfxK.png">
+
+<h3>Whitebox Learning provided us a simple yet powerful simulation tool that allowed us to practice building Prosthetics. After much prototyping, we built these models in the real world. Whitebox is "a complete Standards-Based STEM Learning System for Engineering, Science, and Technology Education classrooms, grades 6-12. Completely web-based, students can design, analyze, and simulate their designs, hundreds of times, from a web browser, and compete with other students throughout their district. Fully-Integrated Teacher LMS is included."</h3>
+
+
+      
+      <div class="polaroid">
+  <img class="image" src="images/armpic.JPG" style="width:100%">
+<img class="image" src="images/armtest.JPG" style="width:100%">
+  <div class="container">
+  <p>The building and testing of our prosthetic arms.</p>
+  </div>
+</div>
+    </div>  
+
+<div id="Dprint">
+    <a href="https://www.sketchup.com/?gclid=CjwKCAjw0N3nBRBvEiwAHMwvNqI7GyR5qUCLOmx7NP2u9YsffbNVFkVITsOOdsgaGuzxnnqiSkjeuBoCQhMQAvD_BwE" target="_blank"><h2 class="rborder" style="text-decoration: underline" >3D Printing</h2></a>
+<h3>SketchUp allowed us to practice the modern life skill, by us modeling first an attatchment for a<a href="#whitebox">prosthetic arm</a>, and/or a ring, with a useful attatchment on it. I personally had a LEGO remover, an essential tool for many people.</h3>
+
+    <!--ADD SKETCHUP PLS -->
+    <div class="polaroid">
+  <img class="image" src="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/ec68bb78-8cfd-4c32-864a-b5bea688743b" style="width:100%">
+  <div class="container">
+  <p>Sketchup's Logo</p>
+  </div>
+</div>
+
+</div>
+
+<div id="VEX">
+    <a href="https://www.vexrobotics.com/?gclid=CjwKCAjwlujnBRBlEiwAuWx4LV7k7CzKn_su17DAXxtF4z80GLUV5qyjHJBAIw3pkKCajW7qnFlrBhoCU-AQAvD_BwE" target="_blank"><h2 class="rborder"  style="text-decoration: underline">VEX Robotics and Programming</h2></a>
+
+<h3>VEX Robotics was an <italic>exhilerating</italic> project that tested our abilities in construction, in programming, and in RV driving. we spent six weeks building, coding, and competing in our own mini-competition. This project was one of the most exciting and fun projects this entire year.</h3>
+
+<div class="polaroid">
+  <img class="image" src="images/vexbuild.JPG" style="width:100%">
+  <div class="container">
+  <p>Me building the VEX robot for my team.</p>
+  </div>
+</div>
+    
+    
+</div>
+
+<div id="HTML">
+    <a href="https://www.studioweb.com/" target="_blank"><h2 class="rborder"  style="text-decoration: underline">HTML / CSS / JavaScript</h2></a>
+
+<h3>Our HTML Project (this very website) was our final project of the year. <br>It was super super fun, as it allowed us to test our HTML/CSS/JS skills. <br> Here is some of my code.</h3>
+
+<div class="polaroid">
+  <img class="image" src="images/HTMLCode.png" style="width:100%">
+  <div class="container">
+  <p>Some HTML Code for this website.</p>
+  </div>
+</div>
+
+	
+</div>
+      <br>
+      <br>
+ <h3 style=""> Wonderful life skills such as a knowledge in HTML5, CSS, and basic programming have contribute
+d to my love for computer science, and this tech class has inspired me to go further into the HTML/programming world.</h3>
+
+<!--		<div style="position:sticky;bottom:10px;text-align:center;  animation-name:example;animation-duration: 4s;  animation-iteration-count: infinite;padding:3px;"><p>Go to my Personal Website <a href="personalpage.html" target="_blank">here</a></p></div> -->
+
+
+
+
+
+    <script>
+    	function displayResult() {
+    document.getElementById("END").innerHTML = "Have a nice day!";
+}
+   	function REMOVE() {
+    document.getElementById("OHNODUDE").innerHTML = "it has been deletused";
+}
+
+    </script>
+  </body>
+</html>
